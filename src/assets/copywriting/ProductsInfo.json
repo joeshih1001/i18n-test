@@ -1,0 +1,6 @@
+[
+  { "productId": "1", "productName": "洗衣機", "price":25000 },
+  { "productId": "2", "productName": "掃地機器人","price":12000 },
+  { "productId": "3", "productName": "洗碗機","price":30000 }
+  
+]
