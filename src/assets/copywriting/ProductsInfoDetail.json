@@ -1,6 +1,0 @@
-[
-  { "productId": "1", "productName": "洗衣機", "price":25000, "desc" : "節能洗衣機" },
-  { "productId": "2", "productName": "掃地機器人","price":12000 , "desc" : "強力掃遞機器人"},
-  { "productId": "3", "productName": "洗碗機","price":30000 , "desc" : "節能洗碗機"}
-  
-]
