@@ -1,12 +1,13 @@
 import { FC } from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
 import { Home } from "./home/Home";
 import { AppLayout } from "./layout/AppLayout";
 import { LangChangePage } from "./langchange/LangChangePage";
 
-
 export const Router: FC = () => {
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -19,9 +20,12 @@ export const Router: FC = () => {
         {
           path: "/:lang/home",
           element: <Home />,
-        }
+        },
       ],
     },
   ]);
-  return <RouterProvider router={router} />;
+  return (
+      <RouterProvider router={router} />
+
+  );
 };
